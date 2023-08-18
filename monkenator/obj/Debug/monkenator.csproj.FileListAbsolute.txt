@@ -1,0 +1,14 @@
+C:\Users\SeanGlover\source\repos\monkenator\monkenator\bin\Debug\monkenator.exe.config
+C:\Users\SeanGlover\source\repos\monkenator\monkenator\bin\Debug\monkenator.exe
+C:\Users\SeanGlover\source\repos\monkenator\monkenator\bin\Debug\monkenator.pdb
+C:\Users\SeanGlover\source\repos\monkenator\monkenator\obj\Debug\monkenator.csproj.AssemblyReference.cache
+C:\Users\SeanGlover\source\repos\monkenator\monkenator\obj\Debug\monkenator.Form1.resources
+C:\Users\SeanGlover\source\repos\monkenator\monkenator\obj\Debug\monkenator.Properties.Resources.resources
+C:\Users\SeanGlover\source\repos\monkenator\monkenator\obj\Debug\monkenator.csproj.GenerateResource.cache
+C:\Users\SeanGlover\source\repos\monkenator\monkenator\obj\Debug\monkenator.csproj.CoreCompileInputs.cache
+C:\Users\SeanGlover\source\repos\monkenator\monkenator\obj\Debug\monkenator.exe
+C:\Users\SeanGlover\source\repos\monkenator\monkenator\obj\Debug\monkenator.pdb
+C:\Users\SeanGlover\source\repos\monkenator\monkenator\bin\Debug\monkenator.exe.manifest
+C:\Users\SeanGlover\source\repos\monkenator\monkenator\bin\Debug\monkenator.application
+C:\Users\SeanGlover\source\repos\monkenator\monkenator\obj\Debug\monkenator.exe.manifest
+C:\Users\SeanGlover\source\repos\monkenator\monkenator\obj\Debug\monkenator.application
