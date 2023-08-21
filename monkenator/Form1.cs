@@ -10,14 +10,14 @@ namespace monkenator
     {
         public Form1() => InitializeComponent();
 
-        private const int xHeartbeat = 1000 * 1;
+        private const int xHeartbeat = 1000 * 60;
         private System.Threading.Timer timer;
         private bool trueFalse = false;
         private void Form1_Load(object sender, EventArgs e)
         {
             //MouseDown += Moused;
             WindowState = FormWindowState.Maximized;
-            ShowInTaskbar = false;
+            ShowInTaskbar = true;
 
             timer = new System.Threading.Timer(new TimerCallback(TokenTimer_tick), null, -1, -1);
             SignIn_startHeartbeat();
