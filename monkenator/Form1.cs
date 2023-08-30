@@ -27,7 +27,7 @@ namespace monkenator
         {
             // MouseDown uses current position and only offsets by the provided values
             InputSender.MouseDown(0 + (trueFalse ? -5 : 5), 0);
-            trueFalse = !trueFalse;            
+            trueFalse = !trueFalse;
         }
         private void Moused(object sender, EventArgs e) => Debugger.Break();
     }
