@@ -1,4 +1,5 @@
-﻿using System;
+﻿using monkenator.Properties;
+using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Threading;
@@ -16,8 +17,11 @@ namespace monkenator
         private void Form1_Load(object sender, EventArgs e)
         {
             //MouseDown += Moused;
-            WindowState = FormWindowState.Maximized;
+            WindowState = FormWindowState.Normal;
             ShowInTaskbar = true;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            BackgroundImage = Resources.monkey1;
+            Size = Resources.monkey1.Size;
 
             timer = new System.Threading.Timer(new TimerCallback(TokenTimer_tick), null, -1, -1);
             SignIn_startHeartbeat();

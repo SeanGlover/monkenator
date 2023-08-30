@@ -7,14 +7,14 @@
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="monkenator.exe.manifest" size="3947">
+    <dependentAssembly dependencyType="install" codebase="monkenator.exe.manifest" size="3948">
       <assemblyIdentity name="monkenator.exe" version="1.0.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>g6uj7C8U8rNdrJv5RQXWGZU/+6ThIvFCS6T7uXidGHw=</dsig:DigestValue>
+        <dsig:DigestValue>6TDwM7x5Qc8Q7/FXU1c5KuUjQ1TbzSL162u8wPeU9YY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
