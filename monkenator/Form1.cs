@@ -14,6 +14,7 @@ namespace monkenator
         private const int xHeartbeat = 1000 * 60;
         private System.Threading.Timer timer;
         private bool trueFalse = false;
+
         private void Form1_Load(object sender, EventArgs e)
         {
             //MouseDown += Moused;
@@ -26,12 +27,19 @@ namespace monkenator
             timer = new System.Threading.Timer(new TimerCallback(TokenTimer_tick), null, -1, -1);
             SignIn_startHeartbeat();
         }
+        private void Form1_Closing(object sender, System.ComponentModel.CancelEventArgs e) => timer.Change(Timeout.Infinite, Timeout.Infinite);
+
         public void SignIn_startHeartbeat() => timer.Change(0, xHeartbeat);
         private void TokenTimer_tick(object sender)
         {
-            // MouseDown uses current position and only offsets by the provided values
-            InputSender.MouseDown(0 + (trueFalse ? -5 : 5), 0);
-            trueFalse = !trueFalse;
+            if (DateTime.Now.Hour >= 18)
+            {
+                Close();
+            }
+            else {
+                InputSender.MouseDown(0 + (trueFalse ? -5 : 5), 0);
+                trueFalse = !trueFalse;
+            } // MouseDown uses current position and only offsets by the provided values
         }
         private void Moused(object sender, EventArgs e) => Debugger.Break();
     }
