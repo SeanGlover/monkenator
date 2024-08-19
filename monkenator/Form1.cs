@@ -22,7 +22,7 @@ namespace monkenator
             ShowInTaskbar = true;
             BackgroundImageLayout = ImageLayout.Stretch;
             BackgroundImage = Resources.monkey1;
-            Size = Resources.monkey1.Size;
+            Size = new System.Drawing.Size(300, 300); //Resources.monkey1.Size;
 
             timer = new System.Threading.Timer(new TimerCallback(TokenTimer_tick), null, -1, -1);
             SignIn_startHeartbeat();
@@ -32,7 +32,7 @@ namespace monkenator
         public void SignIn_startHeartbeat() => timer.Change(0, xHeartbeat);
         private void TokenTimer_tick(object sender)
         {
-            if (DateTime.Now.Hour >= 18)
+            if (DateTime.Now.Hour >= 17 & DateTime.Now.Minute >= 17)
             {
                 Close();
             }
