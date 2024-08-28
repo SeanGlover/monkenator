@@ -3,6 +3,7 @@ using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Threading;
+using System.Timers;
 using System.Windows.Forms;
 
 namespace monkenator
@@ -32,8 +33,9 @@ namespace monkenator
         public void SignIn_startHeartbeat() => timer.Change(0, xHeartbeat);
         private void TokenTimer_tick(object sender)
         {
-            if (DateTime.Now.Hour >= 17 & DateTime.Now.Minute >= 17)
+            if (DateTime.Now.Hour >= 18 & DateTime.Now.Minute >= 00)
             {
+                timer.Change(Timeout.Infinite, Timeout.Infinite);
                 Close();
             }
             else {
