@@ -44,6 +44,27 @@ namespace monkenator
             } // MouseDown uses current position and only offsets by the provided values
         }
         private void Moused(object sender, EventArgs e) => Debugger.Break();
+
+        private void PausePlay_Click(object sender, MouseEventArgs e)
+        {
+            if (e.Y >= 40 & e.Y <= 70)
+            {
+                if (e.X >= 18 & e.X <= 38)
+                {
+                    SignIn_startHeartbeat();
+                    Text = "running";
+                } // play
+                else if (e.X >= 56 & e.X <= 76)
+                {
+                    timer.Change(Timeout.Infinite, Timeout.Infinite);
+                    Text = "paused";
+                } // pause
+                else if (e.X >= 100 & e.X <= 120)
+                {
+                    Close();
+                } // stop
+            }
+        }
     }
     // https://www.codeproject.com/Articles/5264831/How-to-Send-Inputs-using-Csharp
     public class InputSender

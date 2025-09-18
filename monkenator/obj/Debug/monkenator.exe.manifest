@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="monkenator.exe" size="1534464">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="monkenator.exe" size="1781760">
       <assemblyIdentity name="monkenator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3V8TKyOph69gz0RXA9+c3aS2BSGV/0bKnYW1nv3mpgo=</dsig:DigestValue>
+        <dsig:DigestValue>obBixA5ZQJ+Ugz8nPLhelGI5KqeMJ2VeVZrJ2PunTsI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

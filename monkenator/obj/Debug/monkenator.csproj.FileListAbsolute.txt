@@ -12,3 +12,4 @@ C:\Users\SeanGlover\source\repos\monkenator\monkenator\bin\Debug\monkenator.exe.
 C:\Users\SeanGlover\source\repos\monkenator\monkenator\bin\Debug\monkenator.application
 C:\Users\SeanGlover\source\repos\monkenator\monkenator\obj\Debug\monkenator.exe.manifest
 C:\Users\SeanGlover\source\repos\monkenator\monkenator\obj\Debug\monkenator.application
+C:\Users\SeanGlover\Source\Repos\monkenator\monkenator\obj\Debug\monkenator.exe.config
